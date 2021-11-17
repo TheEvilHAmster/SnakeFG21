@@ -123,10 +123,7 @@ public class Snake : MonoBehaviour
 
     private void FastBoodst()
     {
-        
         StartCoroutine(BoostSnakeSpeed());
-        
-
     }
 
     private IEnumerator BoostSnakeSpeed()
